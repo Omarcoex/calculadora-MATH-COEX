@@ -34,3 +34,7 @@ multi.addEventListener("click", () => {
 division.addEventListener("click", () => {
   operador.textContent = "/";
 });
+borrar.addEventListener("click", () => {
+    operador.textContent = "";
+    
+})
