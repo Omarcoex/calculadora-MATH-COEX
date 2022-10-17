@@ -10,6 +10,8 @@ const borrar =document.getElementById("borrar");
 let a=+valor[0].value;
 let b=+valor[1].value;
 let acumular=0
+
+// Se pone escuchar los operador con el dom 
 igual.addEventListener("click",()=>{
     b=+display.innerText;
     if(operador.textContent==="+"){
@@ -62,9 +64,9 @@ borrar.addEventListener("click",()=>{
     valor[1]="";
 });
 for(let i=0; i<=9; i++){
-    document.getElementById("num"+i).addEventListener("click",presion);
+    document.getElementById("num"+i).addEventListener("click",oprimir);
 }
-function presion(e){
+function oprimir(e){
     display.innerText=display.innerText+e.target.value;
 
 }
