@@ -8,6 +8,7 @@ const division = document.getElementById("division");
 const igual = document.getElementById("igual");
 const borrar = document.getElementById("borrar");
 
+// Realizo el llamado a al elemento del DOM
 igual.addEventListener("click", () => {
   let a = +valor[0].value;
   let b = +valor[1].value;
